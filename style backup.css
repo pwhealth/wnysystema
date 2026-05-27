@@ -1,0 +1,165 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+html, body {
+height: 100%;
+font-size: 100%;
+font-family: sans-serif;
+background: black;
+overflow: visible;
+}
+
+a, p a {
+text-decoration: none;
+}
+
+p {
+font-size: 0.9em;
+line-height: 1.5em;
+margin-bottom: 0.8em;
+}
+
+li {
+list-style: none;
+font-size: 1em;
+line-height: 1.3em;
+margin-bottom: 0.5em;
+}
+
+h1 {
+font-size: 1.4em; 
+margin-bottom: 0.8em;
+color: white;
+font-family: courier;
+}
+
+h2 {
+font-size: 1.1em;
+margin-bottom: 0.5em;
+}
+
+h3 {
+font-size: 1.002em;
+margin-bottom: 0.5em;
+}
+
+.clear {clear: both;}
+
+div#pagewrap {
+min-height:100%;
+width: 960px;
+position: relative;
+margin: 0 auto;
+background: url("image/header.png") no-repeat, #93ac93;
+border-left: 3px solid white;
+border-right: 3px solid white;
+border-bottom: 3px solid white;
+}
+
+div#logo {
+display: block;
+position: relative;
+top: 20px;
+left: 20px;
+width: 260px; 
+height:113px; 
+z-index: 1;
+}
+
+.urlImg { 
+width: 260px; 
+height:113px; 
+display:block; 
+background-image: url('image/logo.png'); 
+transition: background .25s ease-in-out;
+   -moz-transition: background .25s ease-in-out;
+   -webkit-transition: background .25s ease-in-out;
+} 
+
+.urlImg:hover { 
+background-image: url('image/logorollover.png'); 
+}
+
+div#nav {
+font-family: 'Black Ops One', cursive;
+position: relative;
+left: 10px;
+top: 75px;
+z-index: 2;
+}
+
+div#nav li {
+float: left;
+display: block;
+padding: 0 25px 0 25px;
+font-size: 1.3em;
+}
+
+div#nav li a {
+color: #e2e3db;
+transition: font-size .25s ease-in-out;
+   -moz-transition: font-size .25s ease-in-out;
+   -webkit-transition: font-size .25s ease-in-out;
+}
+
+div#nav li a:hover, div#nav li a:active {
+font-size: 120%;
+color: white;
+}
+
+div#main {
+display: block;
+position: absolute;
+top: 260px;
+left: 20px;
+height: 360px;
+}
+
+div#intro {
+display: block;
+position: relative;
+float: right;
+width: 58%;
+top: 10%;
+padding: 0 20px 0 10px;
+}
+
+div#photo{
+display: block;
+position: relative;
+width:42%
+}
+
+div#footer {
+display: block;
+background-color: #666666;
+height: 35px;
+width: 100%;
+border-top: 0px solid white;
+position: absolute;
+top: 645px;
+padding-top: 10px; 
+color: #e2e3db;
+font-family: 'Black Ops One', cursive;
+text-align: center;
+}
+
+.credit{text-align: center; font-size: 0.7em; color: #e2e3db; font-family: sans-serif;}
+.credit a{color: white; }
+
+
+}
+/* Media Query*/
+/*for 980px or less*/
+@media screen and (min-width: 980px) {
+}
+
+/*for 700px or less*/
+@media screen and (min-width: 700px) {
+}
+
+/*for 480px or less*/
+@media screen and (min-width: 480px) {
+}

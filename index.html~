@@ -1,0 +1,77 @@
+	<!DOCTYPE html>
+	<!-- Microdata markup added by Google Structured Data Markup Helper. -->
+<html itemscope itemtype="http://schema.org/LocalBusiness">
+<head>
+	<title>Western New York Systema</title>
+	<meta name="generator" content="Bluefish 2.2.5" >
+	<meta name="author" content="zoe" >
+	<meta name="copyright" content="Western New York Systema">
+	<meta itemprop="name" content="Western New York Systema">
+	<meta itemprop="description" content="">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style backup 3.css">
+	<link rel="icon" type="image/x-icon" href="image/wnyfavicon.ico">
+	<link href='http://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+	
+<body>
+<div id="pagewrap">
+
+	<div id="header">
+	
+		<div id="logo">	
+			<a href="index.html"><img src="image/logo.png"></a>		
+		</div><!--END logo-->
+	
+		<div id="nav">
+			<ul>
+				<li>Home</li>
+				<li><a href="about.html">About</a></li>	
+				<li><a href="classes.html">Classes</a></li>	
+				<li><a href="events.html">Events</a></li>	
+				<li><a href="news.html">News</a></li>
+				<!--disabled--<li><a href="http://wnysystema.blogspot.com/">Blog</a></li>-->
+			</ul>
+		</div><!--END nav-->	
+	
+	</div><!--END header-->
+	
+	<div class="clear"></div>
+	
+	<div id="main">
+	
+		<div id="photo">
+			<img src="image/throat.jpg" alt="throat grab">	
+			<img src="image/stick.jpg" alt="stick seminar">	
+			<img src="image/walk.jpg" alt="walking on people">	
+			<img src="image/strike.jpg" alt="strike seminar">	
+		</div><!--END photo-->
+
+		<div id="intro">
+			<h1>Welcome to Western New York Systema.</h1>
+			<p>Systema is an effective and practical fighting art, having no strict rules, rigid forms, or limitations. 
+			Our training is based on instinctive human reactions, practised through breathing, structure, and relaxation. 
+			<p>We offer weekly classes in the Buffalo, NY area, as well as special seminars and workshops. </p>
+		</div><!--END intro-->	
+			
+	</div><!--END main-->
+	
+	<div class="clear"></div>
+	
+	<div id="footer">
+		1914 Colvin Blvd Tonawanda NY 14150 &nbsp;&nbsp; | &nbsp;&nbsp;716-525-8761&nbsp;&nbsp; | &nbsp;&nbsp;wnysystema@gmail.com		
+	</div><!--END footer-->
+
+</div><!--END pagewrap-->
+
+	<div class="credit">
+		© 2015 Western New York Systema | 
+		Designed by <a href="http://worktymehomefront.blogspot.com/" target="blank">Zoe Huang</a>
+	
+	</div><!--END credit-->
+		
+</body>
+</html>

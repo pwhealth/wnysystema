@@ -1,0 +1,177 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+html, body {
+height: 100%;
+font-size: 100%;
+font-family: sans-serif;
+background: white;
+overflow: auto;
+}
+
+a, p a {
+text-decoration: none;
+}
+
+p {
+font-size: 0.9em;
+line-height: 1.5em;
+margin-bottom: 0.8em;
+}
+
+li {
+list-style: none;
+font-size: 1em;
+line-height: 1.3em;
+margin-bottom: 0.5em;
+}
+
+h1 {
+font-size: 1.4em; 
+margin-bottom: 0.5em;
+color: white;
+font-family: courier;
+}
+
+h2 {
+font-size: 1.1em;
+margin-bottom: 0.5em;
+}
+
+h3 {
+font-size: 1.002em;
+margin-bottom: 0.5em;
+}
+
+.clear {clear: both;}
+
+div#pagewrap {
+height: auto;
+min-height: 100%; /* real browsers */
+width: 960px;
+position: relative;
+margin: 0 auto;
+background: url("image/header.png") no-repeat, #93ac93;
+border-left: 3px solid white;
+border-right: 3px solid white;
+overflow: auto;
+}
+
+
+div#logo {
+display: block;
+position: relative;
+top: 20px;
+left: 20px;
+width: 260px; 
+height:113px; 
+z-index: 1;
+}
+
+.urlImg { 
+width: 260px; 
+height:113px; 
+display:block; 
+background-image: url('image/logo.png'); 
+} 
+
+div#nav {
+font-family: 'Black Ops One', cursive;
+position: relative;
+left: 10px;
+top: 75px;
+z-index: 2;
+}
+
+div#nav li {
+float: left;
+display: block;
+padding: 0 1em 0 1em;
+font-size: 1.3em;
+color: white;
+}
+
+div#nav li a {
+color: #e2e3db;
+}
+
+div#nav li a:hover, div#nav li a:active {
+color: white;
+}
+
+div#main {
+display: block;
+position: absolute;
+top: 260px;
+padding: 0 1em 0 1em;
+}
+
+div#main p {
+text-align:justify;
+}
+
+div#photo{
+display: block;
+float: left;
+width: 365px;
+}
+div#photo img{
+display: inline-block;
+width: 180px;
+height: 180px:
+}
+
+div#intro {
+display: block;
+margin-left: 365px;
+padding: 3em 2em 0 2em;
+}
+
+div#footer {
+display: block;
+background-color: #666666;
+height: 35px;
+width: 100%;
+border-top: 0px solid white;
+position: ;
+bottom: px;
+padding-top: 0.5em; 
+color: #e2e3db;
+font-family: arial black;
+text-align: center;
+}
+
+.credit{text-align: center; font-size: 0.7em; color: grey; font-family: sans-serif;}
+.credit a{color: darkgrey; }
+
+
+}
+/* Media Query*/
+/*for 960px or less*/
+@media screen and (min-width: 960px) {
+	#pagewrap {
+	width: 90%
+	}
+}
+
+/*for 700px or less*/
+@media screen and (min-width: 700px) {
+	#pagewrap {
+	width: auto;
+	}	
+	
+}
+
+/*for 480px or less*/
+@media screen and (min-width: 480px) {
+	#pagewrap {
+	background-image: none;}
+	
+	#nav li {
+	display: inline-block;
+	}
+	
+	
+}
