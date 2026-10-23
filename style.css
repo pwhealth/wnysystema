@@ -29,9 +29,10 @@ margin-bottom: 0.5em;
 }
 
 h1 {
-font-size: 1.4em; 
+font-size: 1.5em; 
 margin-bottom: 0.5em;
 color: #FF5900;
+font-family: 'Black Ops One', cursive;
 }
 
 h2 {
@@ -149,7 +150,7 @@ height: 180px:
 
 div#seminarphoto{
 display: block;
-float: right;
+float: left;
 width: 300px;
 }
 div#seminarphoto img{
