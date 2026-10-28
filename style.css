@@ -151,11 +151,11 @@ height: 180px:
 div#seminarphoto{
 display: block;
 float: left;
-width: 300px;
+width: 200px;
 }
 div#seminarphoto img{
 display: inline-block;
-width: 250px;
+width: 200px;
 height: :
 }
 
