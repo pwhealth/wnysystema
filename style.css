@@ -152,11 +152,16 @@ div#seminarphoto{
 display: block;
 float: left;
 width: 200px;
+margin-right: 10px;
 }
 div#seminarphoto img{
 display: inline-block;
 width: 200px;
 height: :
+}
+
+#schedule{
+clear: both;
 }
 
 div#intro {
